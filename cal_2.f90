@@ -10,10 +10,10 @@ program cal_2
     integer, allocatable :: ipiv(:)
 
     ! constants [km,s]
-    c1 = 3.6_8
-    c2 = 4.7_8
-    rho1 = 2700000_8 ![kg/km]
-    rho2 = 3400000_8 ![kg/km]
+    c1 = 4.7_8
+    c2 = 3.6_8
+    rho1 = 3400000_8 ![kg/km]
+    rho2 = 2700000_8 ![kg/km]
     kappa1 = rho1 * c1**2
     kappa2 = rho2 * c2**2
 
